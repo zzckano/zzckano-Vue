@@ -18,7 +18,7 @@
 
 <i>被复用的组件实例,意味着组件的生命周期钩子不会再被调用。 我们可以用 watch（监测变化）来对响应做出变化</i>
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/register.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/register.html)
 
 如果我们不想复用已有的元素，即切换到注册的时候，清空账号和密码，那 <b> key </b>就派上用场了，在标签内加入 key="username-input" 和 key="username-password" ,就清除复用了，此时 Vue 元素就是重头开始渲染
 
@@ -53,11 +53,11 @@ v-show : 相当于 css 属性的 display ；适合频繁的切换
 ```
 <img src='./DOME_HTML/img/is.png'/>
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/is.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/is.html)
 
 自定义组件中父组件通过 props 属性将数据传递给子组件，反过来子组件通过 $emit( event, […args] )把数据发送到父组件，进而进行修改父组件的数据
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/emit.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/emit.html)
 
 javaScript 中事件对象用 event ，vue 中事件对象用 $event
 
@@ -86,7 +86,7 @@ slot: 作用就是占个位置；
 
 <img src='./DOME_HTML/img/slot1.png'/>
 
-[源码地址](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/slot.html)
+[源码地址](https://github.com/zzckano/Vue/blob/master/DOME_HTML/slot.html)
 
 <h2 style='color:rgb(230,3,135);'> axios </h2>
 在 vue2.0 中官方推荐使用 axios 做数据交互；不在推荐使用以前的 vue-resourse ；其实做交互她们本质上是一样的 vue-resourse 怎么用， axios 也可以那样用；
@@ -161,7 +161,7 @@ static放不会变动的文件 assets放可能会变动的文件。
 
 上面是我写的一个小demo，其中引入了 <b>饿了么写的 ElementUI 组件</b>，和在一个组件里面引用了另一个组件然后在渲染到页面中去
 
-[动手 试试 vue-cli 案例 主要看 src 里面的内容](https://github.com/sunseekers/Vue/tree/master/online)
+[动手 试试 vue-cli 案例 主要看 src 里面的内容](https://github.com/zzckano/Vue/tree/master/online)
 
 [vue-loader 文档](https://vue-loader.vuejs.org/zh-cn/)
 
@@ -195,13 +195,13 @@ vuex 提供两个特别有用的方法
  
 <img src='./DOME_HTML/img/vuex2.png'/>
  
- [代码地址](https://github.com/sunseekers/Vue/tree/master/online/vuexsrc/src)
+ [代码地址](https://github.com/zzckano/Vue/tree/master/online/vuexsrc/src)
  
  [详情请参考文档](https://vuex.vuejs.org/zh-cn/installation.html)
  
 > 个人建议：既然选择用库了，就全程用人家的东西，<b>属性绑定用 v-bind:(:),</b>写一些原生可以但是可能会报错
 
-最后在插播一条小小广告，哈哈！我是 18 级应届毕业生，目前正在找 web前端工作，有合适的求推荐 ，感谢了!!
+
 
 
 

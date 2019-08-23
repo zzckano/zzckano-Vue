@@ -79,7 +79,7 @@ const router=new VueRouter({
 ```
 所以 router 后面的属性值应该始终和配置路由时候的变量一样
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/vue-router.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/vue-router.html)
 
 ## 嵌套的 vue-router 
 实际生活中的我们经常会遇到 多层嵌套的组件组合而成，URL 中各段动态路径也按某种结构对应嵌套的各层组件
@@ -94,7 +94,7 @@ $route.params： 表示当前的参数即冒号后面的东西
 
 /detail/:id/age/:age  --->$route.params 表示  id 和 age 组成的对象
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/vue-router2.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/vue-router2.html)
 
 ## 路由的两种实例方法 
 
@@ -106,7 +106,7 @@ $route.params： 表示当前的参数即冒号后面的东西
 
 引入了过渡动画 ，顺便可以温习一下 transform 组件的知识，页面效果看起来好看多了，哈哈哈哈
 
-[查看源码](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/routerTransform.html)
+[查看源码](https://github.com/zzckano/Vue/blob/master/DOME_HTML/routerTransform.html)
 
 ## 配置路由的模式
 设置路由的跳转方式
@@ -204,7 +204,7 @@ const router = new VueRouter({
 <router-view name="a"></router-view>
 <router-view name="b"></router-view>
 ```
-[举个例子](https://github.com/sunseekers/Vue/blob/master/DOME_HTML/vue-routername.html)
+[举个例子](https://github.com/zzckano/Vue/blob/master/DOME_HTML/vue-routername.html)
 
 我还是个 Vue 的初学者，如果文章中有不对之处，还请指正，如果你有更好的经验或建议，欢迎在下面的评论中与我们一起分享
 
